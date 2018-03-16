@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConverter", "DataConverter\DataConverter.csproj", "{393060E7-C510-43E1-98AC-C2146CBC49C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.Lib", "Nikita.Lib\Nikita.Lib.csproj", "{8F402826-B670-43B3-93FD-1F16EB27BECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.Lib.UnitTests", "Nikita.Lib.UnitTests\Nikita.Lib.UnitTests.csproj", "{D14975A2-8697-4DB2-823A-74FEE6CDFFA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{393060E7-C510-43E1-98AC-C2146CBC49C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393060E7-C510-43E1-98AC-C2146CBC49C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393060E7-C510-43E1-98AC-C2146CBC49C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393060E7-C510-43E1-98AC-C2146CBC49C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F402826-B670-43B3-93FD-1F16EB27BECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F402826-B670-43B3-93FD-1F16EB27BECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F402826-B670-43B3-93FD-1F16EB27BECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F402826-B670-43B3-93FD-1F16EB27BECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14975A2-8697-4DB2-823A-74FEE6CDFFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14975A2-8697-4DB2-823A-74FEE6CDFFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14975A2-8697-4DB2-823A-74FEE6CDFFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14975A2-8697-4DB2-823A-74FEE6CDFFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

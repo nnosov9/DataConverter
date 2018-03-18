@@ -16,7 +16,7 @@ namespace DataConverter
         {
            // @"C:\nikita.workspace\input\data_v1.txt",
           //  @"C:\nikita.workspace\input\data_v2.txt",
-            @"C:\nikita.workspace\input\data_v3.txt",
+            @"C:\nikita.workspace\DataConverter\input\data_v3.txt",
           //  @"C:\nikita.workspace\input\data_v4.txt",
             //@"C:\nikita.workspace\input\data_bad.txt",
             //@"C:\nikita.workspace\input\data_idonotexist.txt"
@@ -25,6 +25,11 @@ namespace DataConverter
         static void Main(string[] args)
         {
             Console.WriteLine("running...");
+            foreach (var path in args)
+            {                   
+                myData.Add(path);
+            }
+
             Start();  
             Console.WriteLine("done.");
             Console.Read();

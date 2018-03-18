@@ -7,6 +7,8 @@ using DataConverter.Config;
 using Nikita.Lib.Data;
 using Nikita.Lib.Interfaces;
 using Unity;
+using ICommandPut = DataConverter.Commands.ICommandPut;
+using IDataProcessorCommandFactory = DataConverter.Commands.IDataProcessorCommandFactory;
 
 namespace DataConverter
 {
@@ -50,13 +52,14 @@ namespace DataConverter
             command.Execute();
         }
 
-        static void DisplayData(ICommandGet<Person> command)
+        static void DisplayData(Commands.ICommandGet<Person> command)
         {
             var people = command.Execute();
             DisplayData("Output 1", people.OrderBy(_ => _.Gender).ThenBy(_ => _.LastName));
             DisplayData("Output 2", people.OrderBy(_ => _.DateOfBirth));
             DisplayData("Output 3", people.OrderByDescending(_ => _.LastName));
         }
+
         static void DisplayData(string outputName, IEnumerable<Person> people)
         {
             Console.WriteLine("");

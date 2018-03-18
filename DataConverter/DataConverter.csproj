@@ -75,6 +75,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\BaseProcessFileCommand.cs" />
+    <Compile Include="Commands\DataProcessorCommandFactory.cs" />
+    <Compile Include="Commands\GetPersonDataCommand.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\IDataProcessorCommandFactory.cs" />
+    <Compile Include="Commands\ProcessPersonDataCommand.cs" />
     <Compile Include="Config\UnityConfig.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

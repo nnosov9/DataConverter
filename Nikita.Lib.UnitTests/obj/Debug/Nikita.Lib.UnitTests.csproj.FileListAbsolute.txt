@@ -23,3 +23,5 @@ C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\obj\Debug\Nikita.Lib.Unit
 C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\obj\Debug\Nikita.Lib.UnitTests.pdb
 C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\bin\Debug\mockData\PersonTestFile.txt
 C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\bin\Debug\mockData\EmptyFile.txt
+C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\bin\Debug\Newtonsoft.Json.dll
+C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\bin\Debug\Newtonsoft.Json.xml

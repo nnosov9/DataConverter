@@ -1,0 +1,5 @@
+﻿LastName|FirstName|Gender|FavoriteColor|DateOfBirth
+Volkov|Michael|M|green|04/30/1987
+Anker|Mary|female||03/28/2000
+Price|Elijah|Male|gray|11/22/2000
+T|1000|Cyborg|silver|01/01/1992

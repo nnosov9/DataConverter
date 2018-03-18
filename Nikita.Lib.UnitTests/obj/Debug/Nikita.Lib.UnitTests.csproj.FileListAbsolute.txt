@@ -21,3 +21,5 @@ C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\bin\Debug\ru\Microsoft.Da
 C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\obj\Debug\Nikita.Lib.UnitTests.csprojResolveAssemblyReference.cache
 C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\obj\Debug\Nikita.Lib.UnitTests.dll
 C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\obj\Debug\Nikita.Lib.UnitTests.pdb
+C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\bin\Debug\mockData\PersonTestFile.txt
+C:\nikita.workspace\DataConverter\Nikita.Lib.UnitTests\bin\Debug\mockData\EmptyFile.txt

@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-using System.Web.Http;
-using System.Web.UI.WebControls;
+﻿using System.Web.Http;             
 using Nikita.API.Controllers.Commands.Interfaces;
 using Nikita.API.Models;
 using Nikita.Lib.Interfaces;
@@ -20,7 +18,7 @@ namespace Nikita.API.Controllers
         [HttpPost]
         [Route("")]
         public void PutPerson(PersonDataPut personData)
-        {
+        {    
             var command = _dataProcessorCommandFactory.GetPutPersonCommand(personData.Data);
             command.Execute();
         }

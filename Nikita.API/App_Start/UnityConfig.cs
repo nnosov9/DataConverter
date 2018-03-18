@@ -27,11 +27,7 @@ namespace Nikita.API
             NikitaLibUnityConfig.Register(container);
             container.RegisterType<IPeopleCommandFactory, PeopleCommandFactory>(
                 new PerThreadLifetimeManager());
-
-
-            //container.RegisterType<IParser, DataFileParser<Person>>(new HierarchicalLifetimeManager(),
-            //    new InjectionConstructor(new ResolvedParameter<IParser>("headerParser"),
-            //        new ResolvedParameter<IParser>("recordParser")));
+ 
         }           
     }
 }

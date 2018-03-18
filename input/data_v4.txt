@@ -1,0 +1,4 @@
+Gender|FirstName|LastName|FavoriteColor|DateOfBirth
+M|Mike|Wolf|brown|05/30/1984
+M|Bob|Volkov|orange|03/28/1999
+M|Stew|Jackson|gray|11/22/1956

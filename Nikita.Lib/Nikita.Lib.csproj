@@ -81,7 +81,7 @@
     <Compile Include="Data\DataMeta.cs" />
     <Compile Include="Data\FileParser.cs" />
     <Compile Include="Data\HeaderParser.cs" />
-    <Compile Include="Data\IDataFile.cs" />
+    <Compile Include="Interfaces\IDataFile.cs" />
     <Compile Include="Data\Person.cs" />
     <Compile Include="Data\PersonParser.cs" />
     <Compile Include="Data\PersonRepository.cs" />

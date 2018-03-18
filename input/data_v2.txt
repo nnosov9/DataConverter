@@ -1,0 +1,5 @@
+LastName, FirstName, Gender, FavoriteColor, DateOfBirth
+Tsoi, Viktor, M, black, 06/21/1962
+Warner, Brian, M, black, 01/05/1969
+Smith, Patty, F, green, 12/30/1946				   
+Tchaikovsky, Pyotr, M, red, 05/07/1840  

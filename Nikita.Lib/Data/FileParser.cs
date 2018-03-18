@@ -46,6 +46,10 @@ namespace Nikita.Lib.Data
                     }
                 }
             }
+            else
+            {
+                df.Errors.Add(new DataError() {Exception = new IOException("Missing file or incorrect filePath"),RawData = filePath});
+            }
             return df;
         }
     }

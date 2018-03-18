@@ -34,6 +34,10 @@
       <HintPath>..\packages\Unity.5.7.3\lib\net45\CommonServiceLocator.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -72,30 +76,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\BaseProcessFileCommand.cs" />
-    <Compile Include="Commands\DataProcessorCommandFactory.cs" />
-    <Compile Include="Commands\GetPersonDataCommand.cs" />
-    <Compile Include="Commands\ProcessPersonDataCommand.cs" />
     <Compile Include="Data\DataFile.cs" />
     <Compile Include="Data\DataStorage.cs" />
     <Compile Include="Data\DataMeta.cs" />
     <Compile Include="Data\FileParser.cs" />
     <Compile Include="Data\HeaderParser.cs" />
+    <Compile Include="Domain\IPersonService.cs" />
+    <Compile Include="Domain\PersonService.cs" />
     <Compile Include="Interfaces\IDataFile.cs" />
     <Compile Include="Data\Person.cs" />
     <Compile Include="Data\PersonParser.cs" />
     <Compile Include="Data\PersonRepository.cs" />
-    <Compile Include="Interfaces\ICommand.cs" />
-    <Compile Include="Interfaces\IDataProcessorCommandFactory.cs" />
     <Compile Include="Interfaces\IDataStorage.cs" />
     <Compile Include="Interfaces\IMyRepository.cs" />
     <Compile Include="Interfaces\IParser.cs" />
+    <Compile Include="Interfaces\IPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NikitaLibUnityConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

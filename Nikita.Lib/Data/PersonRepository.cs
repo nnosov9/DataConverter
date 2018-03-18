@@ -29,8 +29,9 @@ namespace Nikita.Lib.Data
             }
         }
 
-        public void Add(Person person)
+        public void Add(Person p)
         {
+            var person = p as Person;
             DataRow row = dtPerson.NewRow();
             row["LastName"] = person.LastName;
             row["FirstName"] = person.FirstName;

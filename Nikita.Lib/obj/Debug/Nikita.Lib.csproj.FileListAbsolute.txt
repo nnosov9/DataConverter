@@ -19,3 +19,5 @@ C:\nikita.workspace\DataConverter\Nikita.Lib\bin\Debug\Unity.Interception.Config
 C:\nikita.workspace\DataConverter\Nikita.Lib\bin\Debug\Unity.RegistrationByConvention.pdb
 C:\nikita.workspace\DataConverter\Nikita.Lib\bin\Debug\Unity.ServiceLocation.pdb
 C:\nikita.workspace\DataConverter\Nikita.Lib\obj\Debug\Nikita.Lib.csprojResolveAssemblyReference.cache
+C:\nikita.workspace\DataConverter\Nikita.Lib\bin\Debug\Newtonsoft.Json.dll
+C:\nikita.workspace\DataConverter\Nikita.Lib\bin\Debug\Newtonsoft.Json.xml

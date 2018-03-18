@@ -1,5 +1,6 @@
-﻿using Nikita.Lib.Commands;
+﻿ 
 using Nikita.Lib.Data;
+using Nikita.Lib.Domain;
 using Nikita.Lib.Interfaces;
 using Unity;
 using Unity.Injection;
@@ -17,12 +18,13 @@ namespace Nikita.Lib
                 new InjectionConstructor(new ResolvedParameter<IParser>("headerParser"), 
                 new ResolvedParameter<IParser>("recordParser")));
 
-            container.RegisterType<IDataProcessorCommandFactory, DataProcessorCommandFactory>(
-                new PerThreadLifetimeManager());
 
             container.RegisterType<IMyRepository<Person>, PersonRepository>(new PerThreadLifetimeManager());
 
             container.RegisterType<IDataStorage, DataStorage>(new PerThreadLifetimeManager());
+
+            container.RegisterType<IService, PersonService>(new PerThreadLifetimeManager());
+
         }
     }
 }

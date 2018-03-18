@@ -22,3 +22,5 @@ C:\nikita.workspace\DataConverter\DataConverter\bin\Debug\Unity.RegistrationByCo
 C:\nikita.workspace\DataConverter\DataConverter\bin\Debug\Unity.ServiceLocation.pdb
 C:\nikita.workspace\DataConverter\DataConverter\bin\Debug\Nikita.Lib.dll
 C:\nikita.workspace\DataConverter\DataConverter\bin\Debug\Nikita.Lib.pdb
+C:\nikita.workspace\DataConverter\DataConverter\bin\Debug\Newtonsoft.Json.dll
+C:\nikita.workspace\DataConverter\DataConverter\bin\Debug\Newtonsoft.Json.xml

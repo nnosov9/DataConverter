@@ -1,6 +1,8 @@
 ﻿using System;
-using Nikita.Lib;              
-using Unity;             
+using DataConverter.Commands;
+using Nikita.Lib;
+using Unity;
+using Unity.Lifetime;
 
 namespace DataConverter.Config
 {
@@ -21,7 +23,9 @@ namespace DataConverter.Config
 
         public static void RegisterTypes(UnityContainer container)
         {
-            NikitaLibUnityConfig.Register(container);                                            
+            NikitaLibUnityConfig.Register(container);
+            container.RegisterType<IDataProcessorCommandFactory, DataProcessorCommandFactory>(
+                new PerThreadLifetimeManager());
         }           
     }
 }

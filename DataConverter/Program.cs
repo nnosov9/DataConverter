@@ -27,6 +27,10 @@ namespace DataConverter
         static void Main(string[] args)
         {
             Console.WriteLine("running...");
+
+            if (args.Length>0)
+                myData = new List<string>();
+
             foreach (var path in args)
             {                   
                 myData.Add(path);

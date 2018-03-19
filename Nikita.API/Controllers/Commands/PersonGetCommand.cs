@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Net.Sockets;
 using Nikita.API.Models;
+using Nikita.API.Models.Interfaces;
 using Nikita.Lib.Data;
 using Nikita.Lib.Domain;
 using Nikita.Lib.Interfaces;
@@ -47,9 +49,11 @@ namespace Nikita.API.Controllers.Commands
                     Items = people.OrderBy(_ => _.DateOfBirth).ToList()
                 };
             }
-
-            return new PersonList() {Count = people.Count(), Items = people.ToList()};
-
+            else
+            {
+                throw new HttpRequestException("Invalid sort request");
+            }
+             
         }
 
     }

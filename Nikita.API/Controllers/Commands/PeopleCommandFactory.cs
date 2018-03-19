@@ -1,5 +1,6 @@
 ﻿ 
 using Nikita.API.Controllers.Commands.Interfaces;
+using Nikita.API.Models.Interfaces;
 using Nikita.Lib.Data;
 using Nikita.Lib.Domain;
 using Nikita.Lib.Interfaces;

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.Lib.UnitTests", "Nik
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.API", "Nikita.API\Nikita.API.csproj", "{7E08D7DC-2A41-48D1-AB1F-ADDE9D588579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.API.UnitTest", "Nikita.API.UnitTest\Nikita.API.UnitTest.csproj", "{21028820-5A3E-423E-B5D1-8CC54453CC16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7E08D7DC-2A41-48D1-AB1F-ADDE9D588579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E08D7DC-2A41-48D1-AB1F-ADDE9D588579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E08D7DC-2A41-48D1-AB1F-ADDE9D588579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21028820-5A3E-423E-B5D1-8CC54453CC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21028820-5A3E-423E-B5D1-8CC54453CC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21028820-5A3E-423E-B5D1-8CC54453CC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21028820-5A3E-423E-B5D1-8CC54453CC16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

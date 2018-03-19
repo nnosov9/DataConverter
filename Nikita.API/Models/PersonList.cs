@@ -1,6 +1,7 @@
 ﻿ 
 using System.Collections.Generic;    
 using Newtonsoft.Json;
+using Nikita.API.Models.Interfaces;
 using Nikita.Lib.Data;
 using Nikita.Lib.Interfaces;
 

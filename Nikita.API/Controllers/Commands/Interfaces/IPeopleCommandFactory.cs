@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Nikita.API.Models.Interfaces;
 using Nikita.Lib.Interfaces;
 
 namespace Nikita.API.Controllers.Commands.Interfaces
